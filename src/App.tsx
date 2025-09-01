@@ -1,5 +1,5 @@
 import React from 'react';
-import { Recycle, Building2, Guitar as Hospital, Home, ChevronDown, Phone, Mail, MapPin, Facebook, Twitter, Linkedin, ArrowRight, Truck, LeafyGreen, Factory, Trash2 } from 'lucide-react';
+import { Recycle, Ambulance, Home, ChevronDown, Phone, Mail, MapPin, Facebook, Twitter, Linkedin, ArrowRight, LeafyGreen, Factory } from 'lucide-react';
 
 const Navigation = () => (
   <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
@@ -67,7 +67,7 @@ const Solutions = () => (
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {[
-          { icon: Hospital, title: 'Medical Waste Management', desc: 'Safe disposal of clinical and biohazardous materials' },
+          { icon: Ambulance, title: 'Medical Waste Management', desc: 'Safe disposal of clinical and biohazardous materials' },
           { icon: Factory, title: 'Industrial Solutions', desc: 'Custom programs for manufacturing and processing facilities' },
           { icon: Home, title: 'Municipal Services', desc: 'Efficient collection and processing for communities' },
           { icon: LeafyGreen, title: 'Green Initiatives', desc: 'Sustainable recycling and composting programs' }
